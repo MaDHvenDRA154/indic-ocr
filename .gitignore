@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build/artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Local env files
+.env
+.env.*
+
+# Model checkpoints and caches
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/trocr_best/
+
+# Large/generated dataset artifacts
+data/processed/
+data/augmented/
+data/raw/
+data/downloads/
+data/data.csv
+
+# Nested duplicate project copy (keep main root only)
+indic-ocr-fixed/
+
+# Accidental malformed folders
+{data/
+{data,src,app,notebooks,.github/
